@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40BDF6151E23C5F000F26D1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BDF6141E23C5F000F26D1D /* AppDelegate.swift */; };
+		40BDF6171E23C5F000F26D1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BDF6161E23C5F000F26D1D /* ViewController.swift */; };
+		40BDF61A1E23C5F000F26D1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40BDF6181E23C5F000F26D1D /* Main.storyboard */; };
+		40BDF61C1E23C5F000F26D1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40BDF61B1E23C5F000F26D1D /* Assets.xcassets */; };
+		40BDF61F1E23C5F000F26D1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40BDF61D1E23C5F000F26D1D /* LaunchScreen.storyboard */; };
+		40BDF62A1E23C5F000F26D1D /* TomskSoftChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BDF6291E23C5F000F26D1D /* TomskSoftChatTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40BDF6261E23C5F000F26D1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40BDF6091E23C5F000F26D1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40BDF6101E23C5F000F26D1D;
+			remoteInfo = TomskSoftChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40BDF6111E23C5F000F26D1D /* TomskSoftChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TomskSoftChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BDF6141E23C5F000F26D1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40BDF6161E23C5F000F26D1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40BDF6191E23C5F000F26D1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40BDF61B1E23C5F000F26D1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40BDF61E1E23C5F000F26D1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40BDF6201E23C5F000F26D1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BDF6251E23C5F000F26D1D /* TomskSoftChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomskSoftChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BDF6291E23C5F000F26D1D /* TomskSoftChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomskSoftChatTests.swift; sourceTree = "<group>"; };
+		40BDF62B1E23C5F000F26D1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40BDF60E1E23C5F000F26D1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BDF6221E23C5F000F26D1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40BDF6081E23C5F000F26D1D = {
+			isa = PBXGroup;
+			children = (
+				40BDF6131E23C5F000F26D1D /* TomskSoftChat */,
+				40BDF6281E23C5F000F26D1D /* TomskSoftChatTests */,
+				40BDF6121E23C5F000F26D1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40BDF6121E23C5F000F26D1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40BDF6111E23C5F000F26D1D /* TomskSoftChat.app */,
+				40BDF6251E23C5F000F26D1D /* TomskSoftChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40BDF6131E23C5F000F26D1D /* TomskSoftChat */ = {
+			isa = PBXGroup;
+			children = (
+				40BDF6141E23C5F000F26D1D /* AppDelegate.swift */,
+				40BDF6161E23C5F000F26D1D /* ViewController.swift */,
+				40BDF6181E23C5F000F26D1D /* Main.storyboard */,
+				40BDF61B1E23C5F000F26D1D /* Assets.xcassets */,
+				40BDF61D1E23C5F000F26D1D /* LaunchScreen.storyboard */,
+				40BDF6201E23C5F000F26D1D /* Info.plist */,
+			);
+			path = TomskSoftChat;
+			sourceTree = "<group>";
+		};
+		40BDF6281E23C5F000F26D1D /* TomskSoftChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				40BDF6291E23C5F000F26D1D /* TomskSoftChatTests.swift */,
+				40BDF62B1E23C5F000F26D1D /* Info.plist */,
+			);
+			path = TomskSoftChatTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40BDF6101E23C5F000F26D1D /* TomskSoftChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BDF62E1E23C5F000F26D1D /* Build configuration list for PBXNativeTarget "TomskSoftChat" */;
+			buildPhases = (
+				40BDF60D1E23C5F000F26D1D /* Sources */,
+				40BDF60E1E23C5F000F26D1D /* Frameworks */,
+				40BDF60F1E23C5F000F26D1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TomskSoftChat;
+			productName = TomskSoftChat;
+			productReference = 40BDF6111E23C5F000F26D1D /* TomskSoftChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40BDF6241E23C5F000F26D1D /* TomskSoftChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BDF6311E23C5F000F26D1D /* Build configuration list for PBXNativeTarget "TomskSoftChatTests" */;
+			buildPhases = (
+				40BDF6211E23C5F000F26D1D /* Sources */,
+				40BDF6221E23C5F000F26D1D /* Frameworks */,
+				40BDF6231E23C5F000F26D1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40BDF6271E23C5F000F26D1D /* PBXTargetDependency */,
+			);
+			name = TomskSoftChatTests;
+			productName = TomskSoftChatTests;
+			productReference = 40BDF6251E23C5F000F26D1D /* TomskSoftChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40BDF6091E23C5F000F26D1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ydo;
+				TargetAttributes = {
+					40BDF6101E23C5F000F26D1D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UWVPP7445S;
+						ProvisioningStyle = Automatic;
+					};
+					40BDF6241E23C5F000F26D1D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UWVPP7445S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 40BDF6101E23C5F000F26D1D;
+					};
+				};
+			};
+			buildConfigurationList = 40BDF60C1E23C5F000F26D1D /* Build configuration list for PBXProject "TomskSoftChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40BDF6081E23C5F000F26D1D;
+			productRefGroup = 40BDF6121E23C5F000F26D1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40BDF6101E23C5F000F26D1D /* TomskSoftChat */,
+				40BDF6241E23C5F000F26D1D /* TomskSoftChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40BDF60F1E23C5F000F26D1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BDF61F1E23C5F000F26D1D /* LaunchScreen.storyboard in Resources */,
+				40BDF61C1E23C5F000F26D1D /* Assets.xcassets in Resources */,
+				40BDF61A1E23C5F000F26D1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BDF6231E23C5F000F26D1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40BDF60D1E23C5F000F26D1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BDF6171E23C5F000F26D1D /* ViewController.swift in Sources */,
+				40BDF6151E23C5F000F26D1D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BDF6211E23C5F000F26D1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BDF62A1E23C5F000F26D1D /* TomskSoftChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40BDF6271E23C5F000F26D1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40BDF6101E23C5F000F26D1D /* TomskSoftChat */;
+			targetProxy = 40BDF6261E23C5F000F26D1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40BDF6181E23C5F000F26D1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40BDF6191E23C5F000F26D1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40BDF61D1E23C5F000F26D1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40BDF61E1E23C5F000F26D1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40BDF62C1E23C5F000F26D1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40BDF62D1E23C5F000F26D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40BDF62F1E23C5F000F26D1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UWVPP7445S;
+				INFOPLIST_FILE = TomskSoftChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TomskSoftChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		40BDF6301E23C5F000F26D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UWVPP7445S;
+				INFOPLIST_FILE = TomskSoftChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TomskSoftChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		40BDF6321E23C5F000F26D1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UWVPP7445S;
+				INFOPLIST_FILE = TomskSoftChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TomskSoftChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TomskSoftChat.app/TomskSoftChat";
+			};
+			name = Debug;
+		};
+		40BDF6331E23C5F000F26D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UWVPP7445S;
+				INFOPLIST_FILE = TomskSoftChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TomskSoftChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TomskSoftChat.app/TomskSoftChat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40BDF60C1E23C5F000F26D1D /* Build configuration list for PBXProject "TomskSoftChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BDF62C1E23C5F000F26D1D /* Debug */,
+				40BDF62D1E23C5F000F26D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40BDF62E1E23C5F000F26D1D /* Build configuration list for PBXNativeTarget "TomskSoftChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BDF62F1E23C5F000F26D1D /* Debug */,
+				40BDF6301E23C5F000F26D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40BDF6311E23C5F000F26D1D /* Build configuration list for PBXNativeTarget "TomskSoftChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BDF6321E23C5F000F26D1D /* Debug */,
+				40BDF6331E23C5F000F26D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40BDF6091E23C5F000F26D1D /* Project object */;
+}
